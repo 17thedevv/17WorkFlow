@@ -1,0 +1,10 @@
+#sidebar {
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    padding: 10px;
+}
+#sidebar .side-items{
+    list-style: none;
+    color: white;
+}
