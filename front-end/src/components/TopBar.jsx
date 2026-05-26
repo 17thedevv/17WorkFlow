@@ -8,10 +8,10 @@ const TopBar = () => {
             <img id="logo" src={logo} alt="Logo" />
             <ul className="top-items">
                 
-                <li className="items" id="notifications">notifications</li>
-                <li className="items" id="help">help</li>
-                <li className="items" id="profile">profile</li>
-                <li className="items" id="settings">settings</li>
+                <li className="items" id="notifications"><i className="ti-bell"></i></li>
+                <li className="items" id="help"><i className="ti-help"></i></li>
+                <li className="items" id="profile"><i className="ti-user"></i></li>
+                <li className="items" id="settings"><i className="ti-settings"></i></li>
             </ul>
         </div>
     )

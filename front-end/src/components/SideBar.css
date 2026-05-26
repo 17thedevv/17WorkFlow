@@ -1,10 +1,29 @@
 #sidebar {
     width: 20%;
-    height: 80%;
-    background-color: black;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
     padding: 10px;
+    justify-content: left;
+    border: 0.5px solid #000;
+    justify-content: space-between;  
 }
+
 #sidebar .side-items{
+    display: flex;
     list-style: none;
-    color: white;
+    color: black;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#sidebar .side-items li{
+    height: 36px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#sidebar .side-items li:hover{
+    background-color: #ccc;
+    transition: 0.2s;
 }

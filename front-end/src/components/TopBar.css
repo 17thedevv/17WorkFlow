@@ -1,10 +1,11 @@
 .top-bar{
     height: 50px;
     width: 100%;
-    background-color: gray;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 0.5px solid #000;
 }
 
 .top-bar #logo{
