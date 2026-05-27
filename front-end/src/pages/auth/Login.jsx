@@ -3,6 +3,9 @@ import './Login.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
+import AuthLayout from '../../components/Layout/AuthLayout';
+
+
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -11,7 +14,9 @@ const Login = () => {
         console.log({ username, password });
     }
     return (
-        <div className="login">      
+        <AuthLayout>
+        <div className="login"> 
+        
             <form onSubmit={handleSubmit}>
                 <h1>Login Here</h1>
                 <input type="text" 
@@ -38,7 +43,9 @@ const Login = () => {
                 Register here
                 </Link>
             </form>
+            
         </div>
+        </AuthLayout>
     )
 }
 

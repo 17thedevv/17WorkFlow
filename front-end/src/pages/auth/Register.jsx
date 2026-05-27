@@ -1,8 +1,11 @@
+import './Register.css';
+import AuthLayout from '../../components/Layout/AuthLayout';
+
 
 const Register = () => {
     return (
-        <div>
-            <h1>Register</h1>
+        <div className="register">
+            
         </div>
     )
 }
