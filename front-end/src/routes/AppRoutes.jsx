@@ -4,6 +4,8 @@ import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
 import ForgotPassword from "../pages/auth/ForgotPassword";
 
+
+import DashBoard from "../pages/board/DashBoard";
 import Board from "../pages/board/Board";
 import Spaces from "../pages/spaces/Spaces";
 import Profile from "../pages/profile/Profile";
@@ -15,6 +17,7 @@ const AppRoutes = () => {
             <Route path="/" element={<Welcome />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/dashboard" element={<DashBoard />} />
             <Route path="/board" element={<Board />} />
             <Route path="/space" element={<Spaces />} />
             <Route path="/profile" element={<Profile />} />

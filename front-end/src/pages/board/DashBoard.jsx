@@ -1,15 +1,14 @@
-import './Board.css'
-
+import './DashBoard.css'
 import BoardLayout from '../../components/Layout/BoardLayout';
 
-const Board = () => {
+const DashBoard = () => {
     return (
         <BoardLayout>
-        <div className="board">
+        <div>
             
         </div>
         </BoardLayout>
     )
 }
 
-export default Board;
+export default DashBoard;

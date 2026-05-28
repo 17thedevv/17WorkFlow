@@ -1,12 +1,16 @@
 #sidebar {
     width: 20%;
-    height: 100vh;
+    height: calc(100vh - 50px);
     position: fixed;
+    top: 50px;
+    left: 0;
     background-color: #fff;
     padding: 10px;
-    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border: 0.5px solid #000;
-    justify-content: space-between;  
+    z-index: 100;
 }
 
 #sidebar .side-items{
@@ -18,12 +22,20 @@
 }
 
 #sidebar .side-items li{
-    height: 36px;
+    height: 40px;
     width: 100%;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #sidebar .side-items li:hover{
     background-color: #ccc;
     transition: 0.2s;
+    height: 40px;
+}
+
+#sidebar .side-items li a{
+    text-decoration: none;
+    color: black;
 }

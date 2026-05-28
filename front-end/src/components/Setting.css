@@ -1,0 +1,25 @@
+.setting {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 300px;
+    background-color: #f8f6f6;
+
+    height: auto;
+    padding: 20px;
+
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.setting .setting-list {
+    margin-left: -50px;
+    list-style: none;
+}
+
+.setting .setting-list li:hover {
+    text-decoration: underline;
+}
